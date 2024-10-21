@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة التمارين</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 20px;
+      }
+      h1 {
+          color: #333;
+          text-align: center;
+      }
+      .exercise {
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 15px;
+          margin: 10px 0;
+      }
+      .solution {
+          background-color: #e7f3fe;
+          border: 1px solid #b3d4fc;
+          border-radius: 5px;
+          padding: 15px;
+          margin: 10px 0;
+      }
+      .explanation {
+          background-color: #fff3cd;
+          border: 1px solid #ffeeba;
+          border-radius: 5px;
+          padding: 15px;
+          margin: 10px 0;
+      }
+  </style>
+</head>
+<body>
+  <h1>تمارين المنطق الرياضي</h1>
+
+  <div class="exercise">
+      <h2>التمرين 1:</h2>
+      <p>استخدم جدول الحقيقة للتحقق من صحة العبارات التالية:</p>
+      <ul>
+          <li>1. \( P \Rightarrow (Q \land R) \)</li>
+          <li>2. \( (P \lor Q) \Rightarrow R \)</li>
+          <li>3. \( \neg (P \land Q) \Leftrightarrow (\neg P \lor \neg Q) \)</li>
+          <li>4. \( (P \Rightarrow Q) \land (Q \Rightarrow R) \Rightarrow (P \Rightarrow R) \)</li>
+          <li>5. \( P \land (Q \lor R) \Leftrightarrow (P \land Q) \lor (P \land R) \)</li>
+      </ul>
+  </div>
+
+  <div class="exercise">
+      <h2>التمرين 2:</h2>
+      <p>ترجم كل جملة إلى صيغة باستخدام الكميات العامة أو الكميات الوجودية:</p>
+      <ul>
+          <li>1. يوجد عدد طبيعي يكون مربع عدد صحيح.</li>
+          <li>2. مجموع أي عددين صحيحين يكون صحيحًا.</li>
+          <li>3. \( x^2 - 4 = 0 \) لها حل فريد في الفترة [0, 4].</li>
+          <li>4. الدالة \( f \) تزداد على مجموعة الأعداد الحقيقية.</li>
+          <li>5. بين عددين حقيقيين مختلفين يوجد عدد صحيح.</li>
+      </ul>
+  </div>
+
+  <div class="exercise">
+      <h2>التمرين 3:</h2>
+      <p>اعطِ نفيًا للتأكيدات التالية:</p>
+      <ul>
+          <li>1. \( \forall x \in \mathbb{R}, x^2 \geq 0 \)</li>
+          <li>2. \( \exists y \in \mathbb{R}, y^2 < 2 \)</li>
+          <li>3. \( \forall x, y \in \mathbb{R}, x + y > 0 \)</li>
+      </ul>
+  </div>
+
+  <div class="exercise">
+      <h2>التمرين 4:</h2>
+      <p>استخدم القوانين المنطقية لإثبات العبارات التالية:</p>
+      <ul>
+          <li>1. \( P \lor (Q \land R) \Leftrightarrow (P \lor Q) \land (P \lor R) \)</li>
+          <li>2. \( \neg (P \lor Q) \Leftrightarrow \neg P \land \neg Q \)</li>
+      </ul>
+  </div>
+
+  <div class="exercise">
+      <h2>التمرين 5:</h2>
+      <p>اكتب جدول الحقيقة للعبارة التالية:</p>
+      <p>\( (P \land Q) \Rightarrow R \)</p>
+  </div>
+
+  <div class="exercise">
+      <h2>التمرين 6:</h2>
+      <p>اوجد نفي العبارات التالية:</p>
+      <ul>
+          <li>1. \( \forall x \in \mathbb{R}, x^2 \geq 0 \)</li>
+          <li>2. \( \exists y \in \mathbb{N}, y^2 < 4 \)</li>
+          <li>3. \( \forall x, y \in \mathbb{R}, x + y > 0 \)</li>
+          <li>4. \( \exists z \in \mathbb{Z}, z \text{ هو عدد زوجي} \)</li>
+          <li>5. \( \forall x \in \mathbb{R}, x^3 > x \)</li>
+          <li>6. \( \exists a \in \mathbb{R}, a^2 = -1 \)</li>
+          <li>7. \( \forall n \in \mathbb{N}, n + 1 \text{ هو عدد فردي} \)</li>
+          <li>8. \( \exists b \in \mathbb{R}, b^2 < 0 \)</li>
+          <li>9. \( \forall x \in \mathbb{R}, x \neq 0 \Rightarrow \frac{1}{x} > 0 \)</li>
+          <li>10. \( \exists c \in \mathbb{R}, c \text{ هو عدد أولي} \text{ و } c < 1 \)</li>
+          <li>11. \( \forall m \in \mathbb{Z}, m \text{ هو عدد صحيح موجب} \)</li>
+          <li>12. \( \exists p \in \mathbb{R}, p^2 \leq 0 \)</li>
+          <li>13. \( \forall x \in \mathbb{R}, x + 1 > x \)</li>
+          <li>14. \( \exists q \in \mathbb{Z}, q \text{ هو عدد فردي} \text{ و } q \text{ زوجي أيضًا} \)</li>
+          <li>15. \( \forall x \in \mathbb{R}, x^2 + 1 > 0 \)</li>
+          <li>16. \( \exists r \in \mathbb{R}, r^2 < 0 \)</li>
+          <li>17. \( \forall x, y \in \mathbb{R}, x \cdot y \geq 0 \)</li>
+          <li>18. \( \exists s \in \mathbb{R}, s^3 < s \)</li>
+          <li>19. \( \forall t \in \mathbb{N}, t \text{ هو عدد أولي} \text{ أو } t = 1 \)</li>
+          <li>20. \( \exists u \in \mathbb{R}, u^2 = 2 \text{ و } u < 0 \)</li>
+      </ul>
+  </div>
+
+  <div class="solution">
+      <h2>تصحيح التمارين:</h2>
+      <h3>تصحيح التمرين 1:</h3>
+      <p>تم استخدام جدول الحقيقة للتحقق من صحة العبارات.</p>
+      <p>مثال لجدول الحقيقة للعبارة \( (P \land Q) \Rightarrow R \):</p>
+      <table>
+          <tr>
+              <th>P</th>
+              <th>Q</th>
+              <th>R</th>
+              <th>(P ∧ Q)</th>
+              <th>(P ∧ Q) ⇒ R</th>
+          </tr>
+          <tr>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+          </tr>
+          <tr>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+          </tr>
+          <tr>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+          </tr>
+          <tr>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+          </tr>
+      </table>
+
+      <h3>تصحيح التمرين 2:</h3>
+      <p>الترجمة:</p>
+      <ul>
+          <li>1. \( \exists x \in \mathbb{N}, \exists n \in \mathbb{Z}, x = n^2 \)</li>
+          <li>2. \( \forall a, b \in \mathbb{Z}, a + b \in \mathbb{Z} \)</li>
+          <li>3. \( \exists x \in [0, 4], x^2 - 4 = 0 \)</li>
+          <li>4. \( \forall x \in \mathbb{R}, f'(x) > 0 \)</li>
+          <li>5. \( \forall a, b \in \mathbb{R}, a < b \Rightarrow \exists z \in \mathbb{Z}, a < z < b \)</li>
+      </ul>
+
+      <h3>تصحيح التمرين 3:</h3>
+      <p>النفي:</p>
+      <ul>
+          <li>1. \( \exists x \in \mathbb{R}, x^2 < 0 \)</li>
+          <li>2. \( \forall y \in \mathbb{R}, y^2 \geq 2 \)</li>
+          <li>3. \( \exists x, y \in \mathbb{R}, x + y \leq 0 \)</li>
+      </ul>
+
+      <h3>تصحيح التمرين 4:</h3>
+      <p>استخدم القوانين المنطقية لإثبات المساواة:</p>
+      <ul>
+          <li>1. \( P \lor (Q \land R) \Leftrightarrow (P \lor Q) \land (P \lor R) \)</li>
+          <li>2. \( \neg (P \lor Q) \Leftrightarrow \neg P \land \neg Q \)</li>
+      </ul>
+
+      <h3>تصحيح التمرين 5:</h3>
+      <p>تم استخدام جدول الحقيقة كما هو موضح في التمرين 1.</p>
+
+      <h3>تصحيح التمرين 6:</h3>
+      <p>النفي:</p>
+      <ul>
+          <li>1. \( \exists x \in \mathbb{R}, x^2 < 0 \)</li>
+          <li>2. \( \forall y \in \mathbb{N}, y^2 \geq 4 \)</li>
+          <li>3. \( \exists x, y \in \mathbb{R}, x + y \leq 0 \)</li>
+          <li>4. \( \forall z \in \mathbb{Z}, z \text{ ليس عدد زوجي} \)</li>
+          <li>5. \( \exists x \in \mathbb{R}, x^3 \leq x \)</li>
+          <li>6. \( \forall a \in \mathbb{R}, a^2 \neq -1 \)</li>
+          <li>7. \( \exists n \in \mathbb{N}, n + 1 \text{ ليس عدد فردي} \)</li>
+          <li>8. \( \forall b \in \mathbb{R}, b^2 \geq 0 \)</li>
+          <li>9. \( \exists x \in \mathbb{R}, x = 0 \text{ أو } \frac{1}{x} \leq 0 \)</li>
+          <li>10. \( \forall c \in \mathbb{R}, c \text{ ليس عدد أولي} \text{ أو } c \geq 1 \)</li>
+          <li>11. \( \exists m \in \mathbb{Z}, m \text{ ليس عدد صحيح موجب} \)</li>
+          <li>12. \( \forall p \in \mathbb{R}, p^2 > 0 \)</li>
+          <li>13. \( \exists x \in \mathbb{R}, x + 1 \leq x \)</li>
+          <li>14. \( \forall q \in \mathbb{Z}, q \text{ ليس فرديًا} \text{ أو } q \text{ ليس زوجيًا أيضًا} \)</li>
+          <li>15. \( \exists x \in \mathbb{R}, x^2 + 1 \leq 0 \)</li>
+          <li>16. \( \forall r \in \mathbb{R}, r^2 \geq 0 \)</li>
+          <li>17. \( \exists x, y \in \mathbb{R}, x \cdot y < 0 \)</li>
+          <li>18. \( \forall s \in \mathbb{R}, s^3 \geq s \)</li>
+          <li>19. \( \exists t \in \mathbb{N}, t \text{ ليس عدد أولي} \text{ أو } t \neq 1 \)</li>
+          <li>20. \( \forall u \in \mathbb{R}, u^2 \neq 2 \text{ أو } u \geq 0 \)</li>
+      </ul>
+  </div>
+
+</body>
+</html>
